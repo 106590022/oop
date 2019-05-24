@@ -1,0 +1,565 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{1a913106-0be0-4476-b0ce-2aa855072614}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="MFC">
+      <UniqueIdentifier>{da904ee8-7f59-4a6c-b3ff-b91b6fb6d0ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLibrary">
+      <UniqueIdentifier>{df7aa532-3fdf-46a0-b3fc-8f5922e8d9e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyGame">
+      <UniqueIdentifier>{0c798913-b7d2-4e26-8241-0f83266cd626}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyGame\Map">
+      <UniqueIdentifier>{43f97a94-52f1-4358-804c-303cdf07bdac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyGame\Enemy">
+      <UniqueIdentifier>{71f631bd-0e0e-4207-89c3-0bd17e92d433}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyGame\Weapon">
+      <UniqueIdentifier>{69a890e3-fa9a-4cf8-83aa-e1a55e33b6a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyGame\Game">
+      <UniqueIdentifier>{fdb6754f-abce-4610-883f-17e00fae644f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyGame\Player">
+      <UniqueIdentifier>{66a396df-c04b-44e5-b39e-1b96cd9fb787}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyGame\Base">
+      <UniqueIdentifier>{49d911c6-89bf-4fe7-8aaf-dc446adb98fe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="RES\center.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\continue.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Res\corner.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\game.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\game.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\gamecurs.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\gameDoc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\help.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\loading.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\ntutcsie.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\audio.cpp">
+      <Filter>GameLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\game.cpp">
+      <Filter>MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gameDoc.cpp">
+      <Filter>MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gamelib.cpp">
+      <Filter>GameLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gameView.cpp">
+      <Filter>MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MainFrm.cpp">
+      <Filter>MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\StdAfx.cpp">
+      <Filter>MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CMap.cpp">
+      <Filter>MyGame\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CPlayer.cpp">
+      <Filter>MyGame\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CEnemy.cpp">
+      <Filter>MyGame\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CBullet.cpp">
+      <Filter>MyGame\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\mygame.cpp">
+      <Filter>MyGame\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CHealthPoints.cpp">
+      <Filter>MyGame\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CBase.cpp">
+      <Filter>MyGame\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CDifferentTime.cpp">
+      <Filter>MyGame\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CCoin.cpp">
+      <Filter>MyGame\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CGun.cpp">
+      <Filter>MyGame\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CWeapon.cpp">
+      <Filter>MyGame\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CGunBullet.cpp">
+      <Filter>MyGame\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CLandmine.cpp">
+      <Filter>MyGame\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CBomb.cpp">
+      <Filter>MyGame\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CProps.cpp">
+      <Filter>MyGame\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CHeal.cpp">
+      <Filter>MyGame\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CGasoline.cpp">
+      <Filter>MyGame\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CShop.cpp">
+      <Filter>MyGame\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CBackpack.cpp">
+      <Filter>MyGame\Player</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\audio.h">
+      <Filter>GameLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\game.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\gameDoc.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\gamelib.h">
+      <Filter>GameLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\gameView.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MainFrm.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Resource.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\StdAfx.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CMap.h">
+      <Filter>MyGame\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CPlayer.h">
+      <Filter>MyGame\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CEnemy.h">
+      <Filter>MyGame\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CBullet.h">
+      <Filter>MyGame\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\mygame.h">
+      <Filter>MyGame\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CHealthPoints.h">
+      <Filter>MyGame\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CBase.h">
+      <Filter>MyGame\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CCoin.h">
+      <Filter>MyGame\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CGun.h">
+      <Filter>MyGame\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CWeapon.h">
+      <Filter>MyGame\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CDifferentTime.h">
+      <Filter>MyGame\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CGunBullet.h">
+      <Filter>MyGame\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CLandmine.h">
+      <Filter>MyGame\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CBomb.h">
+      <Filter>MyGame\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CProps.h">
+      <Filter>MyGame\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CHeal.h">
+      <Filter>MyGame\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\aStar.h">
+      <Filter>MyGame\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CGasoline.h">
+      <Filter>MyGame\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CShop.h">
+      <Filter>MyGame\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CBackpack.h">
+      <Filter>MyGame\Player</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Source\game.rc">
+      <Filter>MFC</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="bmp\player\side.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\player\side2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\player\side3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\player\side4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\player\side1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\monster\monster1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\monster\monster2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\monster\monster3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\monster\monster4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\monster\monster5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\monster\monster6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\monster\monster7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\monster\monster8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\player\Lsid2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\player\Lsid3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\player\Lsid4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\player\Lside1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\player\Lside2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\player\Lside3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\player\Lside4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\player\down1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\player\down2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\player\down3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\player\down4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\player\up1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\player\up2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\player\up3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\player\up4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\monster\explode1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\monster\explode2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\monster\explode3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\player\up1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\player\up2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\player\up3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\player\up4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\map\map.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\weapon\landmine.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\base\base.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\base\diamond2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\base\diamond3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\base\diamond4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\base\diamond1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\coin\coin1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\coin\coin2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\coin\coin3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\coin\coin4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\coin\coin5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\weapon\gun\shot_down.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\weapon\gun\shot_Lside.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\weapon\gun\shot_side.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\weapon\gun\shot_up.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\weapon\landmine2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\player\Heal.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\player\Heal2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\player\Heal3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\player\Heal4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\weapon\landmine\mineBoom.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\weapon\landmine\mineBoom2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\weapon\landmine\mineBoom3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\weapon\landmine\mineBoom4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\weapon\landmine\mineBoom5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\weapon\gun\bullet.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\weapon\landmine\landmine.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\weapon\landmine\landmine2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\weapon\gun\bullet.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\weapon\gasoline\boom1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\weapon\gasoline\boom2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\weapon\gasoline\boom3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\weapon\gasoline\boom4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\weapon\gasoline\boom5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\weapon\gasoline\boom6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\weapon\gasoline\boom7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\weapon\gasoline\gasoline.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\player\left1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\player\left2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\player\left3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\player\left4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\player\right1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\player\right2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\player\right3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\player\right4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\number\bmp0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\number\bmp1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\number\bmp2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\number\bmp3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\number\bmp4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\number\bmp5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\number\bmp6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\number\bmp7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\number\bmp8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\number\bmp9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\number\bmp10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\player\bitmap17.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\shop\shop.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\shop\mine.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\shop\mine_black.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\shop\oil.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\shop\oil_black.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\shop\gasoline_intro.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\shop\landmine_intro.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\shop\landmine.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\shop\landmine_black.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\shop\gasoline.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\shop\gasoline_black.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\number\infinity.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\number\score.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmp\number\coin.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
