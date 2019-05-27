@@ -16,7 +16,7 @@ namespace game_framework {
 		ms = 0;
 		direction = 0;
 		tstart = tend = 0;
-		factor = 1;
+		factor = 3;
 		cx = 40;
 		cy = 43;
 		nBullets = 0;

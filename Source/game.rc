@@ -256,6 +256,22 @@ IDB_ROCKET_BULLET_LEFT  BITMAP                  "D:\\大學\\二下\\物件\\new\\bmp\
 
 IDB_ROCKET_BULLET_UP    BITMAP                  "D:\\大學\\二下\\物件\\new\\bmp\\weapon\\rocket\\rocket_bullet_up.bmp"
 
+IDB_MACHINEGUN_BULLET_DOWN BITMAP                  "D:\\大學\\二下\\物件\\new\\bmp\\weapon\\machinegun\\bulletdown.bmp"
+
+IDB_MACHINEGUN_BULLET_LEFT BITMAP                  "D:\\大學\\二下\\物件\\new\\bmp\\weapon\\machinegun\\bulletleft.bmp"
+
+IDB_MACHINEGUN_BULLET_RIGHT BITMAP                  "D:\\大學\\二下\\物件\\new\\bmp\\weapon\\machinegun\\bulletright.bmp"
+
+IDB_MACHINEGUN_BULLET_UP BITMAP                  "D:\\大學\\二下\\物件\\new\\bmp\\weapon\\machinegun\\bulletup.bmp"
+
+IDB_MACHINEGUN_DOWN     BITMAP                  "D:\\大學\\二下\\物件\\new\\bmp\\weapon\\machinegun\\machinegun_down.bmp"
+
+IDB_MACHINEGUN_LEFT     BITMAP                  "D:\\大學\\二下\\物件\\new\\bmp\\weapon\\machinegun\\machinegun_left.bmp"
+
+IDB_MACHINEGUN_RIGHT    BITMAP                  "D:\\大學\\二下\\物件\\new\\bmp\\weapon\\machinegun\\machinegun_right.bmp"
+
+IDB_MACHINEGUN_UP       BITMAP                  "D:\\大學\\二下\\物件\\new\\bmp\\weapon\\machinegun\\machinegun_up.bmp"
+
 
 /////////////////////////////////////////////////////////////////////////////
 //

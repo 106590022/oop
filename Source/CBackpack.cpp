@@ -8,11 +8,13 @@
 #include "CWeapon.h"
 #include "CGun.h"
 #include "CRocket.h"
+#include "CMachinegun.h"
 #include "CBomb.h"
 #include "CBackpack.h"
 namespace game_framework {
 	CBackpack::CBackpack()
-	{weapons.emplace_back(new CRocket());
+	{	weapons.emplace_back(new CRocket());
+		weapons.emplace_back(new CMachinegun());
 		weapons.emplace_back(new CGun());
 		
 		coins = 0;
@@ -37,10 +39,15 @@ namespace game_framework {
 		item = weapons[kind];
 		return &item;
 	}
-	void CBackpack::LoadBitMap()
+	void CBackpack::LoadBitMap()// 這邊載入武器圖片!!!
 	{
-		(*weapons.begin())->LoadBitMap();
-		(*weapons.rbegin())->LoadBitMap();
+		for(int i=0 ; i <3; i++)
+		{
+			weapons[i]->LoadBitMap();
+		}
+		//(*weapons.begin())->LoadBitMap();
+
+		//(*weapons.rbegin())->LoadBitMap();
 	}
 	void CBackpack::OnShow(CGameMap &map)
 	{

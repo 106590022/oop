@@ -33,7 +33,7 @@ namespace game_framework {
 	void CRocketBullet::OnMove(CGameMap& map)
 	{
 		if (isBoom == true)
-		{
+		{	
 			if (!RocketBoom.IsFinalBitmap())
 			{
 				RocketBoom.OnMove();
